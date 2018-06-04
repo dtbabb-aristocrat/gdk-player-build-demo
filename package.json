@@ -1,0 +1,44 @@
+{
+  "name": "gdk-container",
+  "version": "1.0.0",
+  "description": "Prototype cross-platform game container",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AristocratTechnologiesInc/gdk-container.git"
+  },
+  "author": "Derrick Babb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AristocratTechnologiesInc/gdk-container/issues"
+  },
+  "homepage": "https://github.com/AristocratTechnologiesInc/gdk-container#readme",
+  "devDependencies": {
+    "ts-node": "^6.0.5",
+    "tslint": "^5.10.0",
+    "tslint-consistent-codestyle": "^1.13.0",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@types/got": "^8.3.1",
+    "@types/gulp": "^4.0.5",
+    "@types/node": "^10.3.0",
+    "@types/shelljs": "^0.8.0",
+    "@types/unzip": "^0.1.1",
+    "@types/winston": "^2.3.9",
+    "got": "^8.3.1",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "shelljs": "^0.8.2",
+    "unzip": "^0.1.11",
+    "winston": "^2.4.2"
+  }
+}

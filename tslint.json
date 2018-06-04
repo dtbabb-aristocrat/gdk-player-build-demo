@@ -1,0 +1,38 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rulesDirectory": ["tslint-consistent-codestyle"],
+    "rules": {
+        "interface-name": [true, "never-prefix"],
+        "trailing-comma": [
+            true,
+            {
+                "multiline": {
+                    "objects": "never",
+                    "arrays": "never",
+                    "functions": "never",
+                    "typeLiterals": "ignore"
+                }
+            }
+        ],
+        "prefer-const": false,
+        "radix": false,
+        "max-line-length": 150,
+        "eofline": false,
+        "naming-convention": [
+            true,
+            {
+                "type": "method",
+                "format": "camelCase"
+            },
+            {
+                "type": "function",
+                "format": "camelCase"
+            }
+        ],
+        "object-literal-sort-keys": false
+    }
+}
